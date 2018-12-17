@@ -20,6 +20,7 @@ cost=tf.reduce_mean(cost)
 
 optimizer=tf.train.AdamOptimizer().minimize(cost)
 
+#Exor input and output
 
 inp=[[1,1],[1,0],[0,1],[1,1]]
 out=[[0],[1],[1],[0]]
