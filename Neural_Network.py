@@ -1,3 +1,6 @@
+#This will help you to create Neural Network for Xor gate
+
+
 import tensorflow as tf
 
 Input = tf.placeholder('float', shape=[None, 2], name="Input")
