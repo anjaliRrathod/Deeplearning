@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="095dd762-b516-4847-83fc-57d800a46635" name="Default Changelist" comment="" />
+    <list default="true" id="095dd762-b516-4847-83fc-57d800a46635" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Neural_Network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neural_Network.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/place_holder_and_varibles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Neural_Network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -39,14 +50,15 @@
         <option value="$PROJECT_DIR$/test" />
         <option value="$PROJECT_DIR$/try.py" />
         <option value="$PROJECT_DIR$/hello_world.py" />
+        <option value="$PROJECT_DIR$/Neural_Network.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="545" />
-    <option name="y" value="31" />
+    <option name="x" value="800" />
+    <option name="y" value="46" />
     <option name="width" value="1523" />
-    <option name="height" value="958" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -80,7 +92,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hello_world">
+  <component name="RunManager" selected="Python.Neural_Network">
+    <configuration name="Neural_Network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hello_world" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neural_Network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello_world" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Neural_Network" />
         <item itemvalue="Python.hello_world" />
         <item itemvalue="Python.try" />
         <item itemvalue="Python.test" />
@@ -175,20 +209,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="545" y="31" width="1523" height="958" extended-state="0" />
+    <frame x="324" y="46" width="1523" height="948" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22902796" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22902796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31986144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297619" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4157044" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4090909" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -216,8 +251,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/place_holder_and_varibles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neural_Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
         </state>
       </provider>
     </entry>
