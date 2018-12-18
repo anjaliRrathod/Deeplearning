@@ -16,7 +16,7 @@ hiddenlayer = tf.matmul(Input, weights)+inputBias
 hiddenlayer = tf.sigmoid(hiddenlayer, name="Hidden_layer_activation")
 
 output = tf.matmul(hiddenlayer, outputweights) + hiddenBias
-hiddenlayer = tf.sigmoid(hiddenlayer, name="output_layer_activation")
+output = tf.sigmoid(output, name="output_layer_activation")
 
 cost=tf.squared_difference(Target,output)
 cost=tf.reduce_mean(cost)
@@ -25,9 +25,9 @@ optimizer=tf.train.AdamOptimizer().minimize(cost)
 
 #Exor input and output
 
-inp=[[1,1],[1,0],[0,1],[1,1]]
+inp=[[1,1],[1,0],[0,1],[0,0]]
 out=[[0],[1],[1],[0]]
-epochs=4000
+epochs=7000
 
 
 with tf.Session() as sess:
