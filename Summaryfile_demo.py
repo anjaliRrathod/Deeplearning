@@ -1,4 +1,5 @@
 #This will help you to create Neural Network for Xor gate
+#command to run tensorboard --logdir=./summary_log
 
 
 import tensorflow as tf
