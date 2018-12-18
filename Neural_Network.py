@@ -42,3 +42,18 @@ with tf.Session() as sess:
         inp[0][0]=input(" first input")
         inp[0][1]=input("Second input")
         print(sess.run([output],feed_dict={Input:inp}))
+
+
+#---------------------------------------------------------------------------output---------------------------------------------------------------
+#  first input1
+# Second input1
+# [array([[0.10893457]], dtype=float32)]
+#  first input0
+# Second input0
+# [array([[0.02925059]], dtype=float32)]
+#  first input1
+# Second input0
+# [array([[0.9223157]], dtype=float32)]
+#  first input0
+# Second input1
+# [array([[0.9196354]], dtype=float32)]
