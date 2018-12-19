@@ -2,9 +2,9 @@ Train the newtork to learn deep learning
 
 <h6/> 1.Install anaconda and pycharm to start the project <h6/> 
 2.Install the libraies in the anaconda like opencv,tensorflow.<h6/> 
-3.Open the package in the pycharm and start development from the hello_world.py program.
+3.Open the package in the pycharm and start development from the hello_world.py program.<h6/>
 
-hello_world.py
+1.) hello_world.py <br/>
 <p>
 import tensorflow as tf 
 
@@ -15,3 +15,5 @@ sess = tf.Session()
 print(sess.run(x))
 <p/>
 
+2.) Playing with placeholder and variable <br/>
+<p>place_holder_and_varibles.py 
