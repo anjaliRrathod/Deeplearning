@@ -17,3 +17,10 @@ print(sess.run(x))
 
 2.) Playing with placeholder and variable <br/>
 <p>place_holder_and_varibles.py 
+  
+3.) creating_the_scope <br/>
+<p>creating_scope.py<p/>
+
+4.) Creation of neural network <br/>
+<p>Neural_network_Xor_gate.py<p/>
+
