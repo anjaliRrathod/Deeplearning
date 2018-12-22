@@ -25,3 +25,4 @@ print(sess.run(x))
 <p>Neural_network_Xor_gate.py<p/>
 
 
+
