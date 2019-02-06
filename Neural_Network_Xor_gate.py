@@ -57,3 +57,4 @@ with tf.Session() as sess:
 #  first input0
 # Second input1
 # [array([[0.9196354]], dtype=float32)]
+#
