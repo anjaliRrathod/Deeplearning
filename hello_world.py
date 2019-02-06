@@ -6,3 +6,4 @@ sess = tf.Session()
 
 print(sess.run(x))
 
+
