@@ -23,6 +23,3 @@ print(sess.run(x))
 
 4.) Creation of neural network <br/>
 <p>Neural_network_Xor_gate.py<p/>
-
-
-
